@@ -1,0 +1,22 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+ul,li {
+    list-style: none
+}
+/* 
+    清除浮动 一般用clearfix大法,适用于绝大多数场景,兼容IE8及以上
+*/
+.clearfix:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.demoFloat {
+    background: #ccc
+}
+.demoFloat li {
+    float: left;
+}
